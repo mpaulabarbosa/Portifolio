@@ -1,0 +1,21 @@
+:root {
+  --font-display: 'Fredoka', sans-serif;
+  --font-sans: 'Nunito', sans-serif;
+  --font-mono: 'Roboto Mono', monospace;
+}
+
+.font-sans {
+  font-family: var(--font-sans);
+  background-color: inherit;
+}
+
+.font-display {
+  font-family: var(--font-display);
+  background-color: inherit;
+}
+
+.font-mono {
+  font-family: var(--font-mono);
+  background-color: inherit;
+  font-weight: normal;
+}
