@@ -1,13 +1,10 @@
 import '../App.css'
 import CardProjeto from './CardProjeto'
 import { projetos } from '../constants/projetos';
-import foto from  "../assets/image0.jpg"
 
 export default function Projetos({
     projetosRef
 }) {
-    const dataProjeto = "a";
-    const  nomeProjeto = "b"
 
     const projetosOrdenados = [...projetos].sort((a, b) => {
 
@@ -17,8 +14,6 @@ export default function Projetos({
 
         return new Date(a.data) - new Date(b.data);
     });
-
-    console.log(projetosOrdenados);
 
     return (
         <div className='projetos'>
@@ -35,7 +30,6 @@ export default function Projetos({
                     <div className='card-projeto-bottom'>
                         {projetosOrdenados.map ((projeto) =>
                             <CardProjeto
-                                fotoProjeto={foto}
                                 nomeProjeto={projeto.nome}
                                 dataProjeto={projeto.descricao}
                                 idProjeto = {projeto.id}

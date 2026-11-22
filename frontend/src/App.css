@@ -5,8 +5,8 @@
   --rosa-escuro: #FDCEDF;
   --fundo-container: inherit
 }
-li {
-  all: unset;
+ul {
+  list-style: none;
 }
 a {
   all: unset;
@@ -249,6 +249,7 @@ section {
   border-radius: 10px;
   background-color: var(--verde-escuro);
   color: var(--rosa-claro);
+  cursor: pointer;
 }
 .card-experiencia {
   background-color: var(--rosa-escuro);
@@ -256,9 +257,15 @@ section {
   height: 200px;
   width: 85%;
   padding: 10px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 20px;
 }
 .card-experiencia > p {
   background-color: var(--fundo-container);
+  font-size: 20px;
+  max-width: 50%;
 }
 .faixa-contato {
   background-color: var(--rosa-escuro);
@@ -382,9 +389,92 @@ footer {
   font-size: 30px;
   font-weight: bold;
   border-radius: 20px;
+  cursor: pointer;
 }
 .links-contato > img {
   background-color: var(--fundo-container);
   margin: 15px;
   max-width: 70px;
+}
+.experiencia-info {
+  max-width: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: var(--rosa-claro);
+  border-radius: 20px;
+  margin: 10px;
+}
+.experiencia-info-direita {
+  max-width: 150px;
+  border-radius: 10px;
+  margin: 10px;
+  border: 2px solid var(--verde-claro);
+}
+.experiencia-info-esquerda {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin: 10px;
+  background-color: var(--fundo-container);
+  color: var(--verde-escuro);
+}
+.experiencia-info-esquerda > p {
+  background-color: var(--fundo-container);
+}
+.detalhes-info-direita {
+  max-width: 50%;
+  border: 3px solid var(--verde-escuro);
+  border-radius: 20px;
+}
+.card-detalhes {
+  background-color: var(--rosa-escuro);
+  min-height: 50%;
+  width: 80%;
+  display: flex;
+  align-items: center;
+  border-radius: 20px;
+  padding: 20px;
+}
+.detalhes-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+  background-color: var(--fundo-container);
+}
+.detalhes-tecnologiasProjeto > ul > li {
+  color: var(--verde-escuro);
+  background-color: var(--fundo-container);
+}
+.detalhes-tecnologiasProjeto > ul {
+  background-color: var(--fundo-container);
+}
+.detalhes-tecnologiasProjeto {
+  background-color: var(--fundo-container);
+}
+.detalhes-info-esquerda {
+  background-color: var(--fundo-container);
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 50%;
+}
+.detalhes-info-esquerda > a > div {
+  height: 50px;
+  border-radius: 10px;
+  max-width: 60%;
+}
+.detalhes-info-esquerda > a > div > img {
+  max-height: 40px;
+  max-width: 40px;
+}
+.detalhes-info-esquerda > p {
+  background-color: var(--rosa-escuro);
+}
+.detalhes-tecnologiasProjeto > p {
+  background-color: var(--rosa-escuro);
+}
+.detalhes-nomeProjeto {
+  font-weight: bold;
 }
