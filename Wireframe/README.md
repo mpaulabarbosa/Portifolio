@@ -1,5 +1,7 @@
 # Wireframe
 
-- Primeira versão do wireframe da página principal 
+- Versão final do wireframe
 
-![PrimeiraVersaoPrincipal](./artefatos/PrimeiraVersaoPrincipal.png)
+![WireframeAtualizado](./artefatos/WireframeAtualizado.png)
+
+A primeira versão do wireframe está em "Portifolio\Wireframe\artefatos\PrimeiraVersaoPrincipal.png" em caso de dúvidas
