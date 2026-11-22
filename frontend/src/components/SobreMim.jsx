@@ -2,6 +2,7 @@ import '../App.css'
 import React, { useState } from 'react';
 import { sobremim } from '../constants/sobremim';
 import sobremimFlor from  "../assets/sobremim-flor.jpg"
+import sobremimCeu from  "../assets/sobremim-ceu.jpg"
 
 export default function SobreMim({
     sobreRef
@@ -19,7 +20,7 @@ export default function SobreMim({
           <div className='centralizar'>
             <div className='sobremim-grid'>
               <div className='fotos-sobremim-grid'>
-                  <img className='fotos-sobremim' src={sobremimFlor}  alt="" />
+                  <img className='fotos-sobremim' src={sobremimCeu}  alt="" />
                   <img className='fotos-sobremim' src={sobremimFlor}  alt="" />
               </div>
               <div className='sobremim-info font-sans'>
