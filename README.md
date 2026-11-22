@@ -7,7 +7,7 @@
 ---
 
 ## 🔗 Links Úteis
-* **Site no Render:** [Site](<https://portifolio-weiz.onrender.com>)
+* **Site:** [Site no Render](<https://portifolio-weiz.onrender.com>)
 
 ---
 
