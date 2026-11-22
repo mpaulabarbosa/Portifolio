@@ -9,6 +9,12 @@ button {
   all: unset;
   cursor: pointer;
 }
+input {
+  all: unset;
+}
+textarea {
+  all: unset;
+}
 * {
   background-color: #FFFCE6 ;
   margin: 0px;
@@ -77,26 +83,28 @@ nav>ul {
   text-decoration-color: var(--verde-claro);
   text-underline-offset: 4px;
 }
-.sobremim {
-  margin-top: 250px;
-}
 li {
   background-color: inherit;
 }
 section {
+  margin-top: 100px;
+  margin-bottom: 100px;
   scroll-margin-top: 150px;
   font-size: 30px;
   margin-left: 15%;
+}
+.sobremim {
+  margin-top: 300px;
 }
 .fotos-sobremim {
   min-width: 100px;
   max-width: 300px;
   border-radius: 20px;
-  margin-top: 100px;
 }
 .fotos-sobremim-grid {
   display: grid;
   grid-template-rows: 1fr 1fr;
+  gap: 10px;
 }
 .sobremim-grid {
   display: flex;
@@ -106,18 +114,16 @@ section {
 .sobremim-info {
   border-radius: 20px;
   width: 50%;
-  margin-top: 100px;
   background-color: var(--rosa-escuro);
 }
 .sobremim-nome {
-  padding-top: 5px;
-  padding-left: 5px;
   margin-left: 5px;
   font-weight: bold;
   background-color: transparent;
   font-size: x-large;
 }
 .sobremim-info-top {
+  padding: 10px;
   border-top-right-radius: 20px;
   border-top-left-radius: 20px;
   display: flex;
@@ -146,4 +152,118 @@ section {
   text-decoration-thickness: 3px;
   text-decoration-color: var(--verde-claro);
   text-underline-offset: 4px;
+}
+.card-projeto-foto {
+  height: 250px;
+  border-radius: 20px;
+}
+.card-projeto {
+  border-radius: 20px;
+  background-color: var(--rosa-escuro);
+  width: 85%;
+}
+.centralizar {
+  display: flex;
+  justify-content: center;
+}
+.card-projeto-bottom {
+  background-color: var(--fundo-container);
+  display: flex;
+  justify-content: space-between;
+}
+.card-projeto-top {
+  background-color: var(--rosa-claro);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: bolder;
+  padding: 5px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+.listra-projeto {
+  height: 3px;
+  width: 50%;
+  background-color: var(--verde-escuro);
+}
+.card-projeto-top > p {
+  background-color: var(--fundo-container);
+  margin: 2px;
+}
+.card-projeto-individual {
+  margin: 10px;
+  border-radius: 20px;
+  background-color: var(--rosa-claro);
+  padding: 20px;
+}
+.card-projeto-individual > div > p {
+  background-color: var(--fundo-container);
+}
+.projeto-setas {
+  color: var(--verde-escuro);
+  font-size: x-large;
+}
+.card-info {
+  background-color: var(--fundo-container);
+}
+.card-experiencia {
+  background-color: var(--rosa-escuro);
+  border-radius: 20px;
+  height: 200px;
+  width: 85%;
+  padding: 10px;
+}
+.card-experiencia > p {
+  background-color: var(--fundo-container);
+}
+.faixa-contato {
+  background-color: var(--rosa-escuro);
+  width: 100%;
+  display: grid;
+  grid-template-columns: 2fr 3fr;
+}
+.campoInfo-email {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  background-color: var(--fundo-container);
+}
+.campoinfo-top {
+  display: flex;
+  gap: 2%;
+  width: 100%;
+  background-color: var(--fundo-container);
+}
+.form-email {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 30px;
+  padding-bottom: 20px;
+  padding-top: 0px;
+}
+.input-email {
+  border-radius: 15px;
+  background-color: rgb(255, 255, 255, 0.1);
+  padding: 10px;
+  border: 2px solid var(--verde-claro);
+}
+.campoInfo-email > label {
+  font-size: larger;
+  margin-left: 5px;
+  margin-top: 20px;
+  background-color: var(--fundo-container);
+}
+.form-email > button {
+  background-color: var(--verde-escuro);
+  width: 100%;
+  color: var(--rosa-claro);
+  text-align: center;
+  margin: 40px;
+  margin-bottom: 10px;
+  padding: 10px;
+  border-radius: 10px;
+}
+.campoInfo-email > textarea {
+  height: 130px;
 }
