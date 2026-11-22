@@ -46,7 +46,7 @@ export default function DetalhesProjeto() {
                                 <li>{"\u2605"} {projetos[id-1].tecnologias[3]}</li>
                             </ul>
                         </div>
-                        <a href="https://github.com/mpaulabarbosa">
+                        <a href={projetos[id-1].link}>
                             <div className='links-contato git'>
                                 <p className='font-sans'>git</p>
                                 <img src={github} alt="git" />

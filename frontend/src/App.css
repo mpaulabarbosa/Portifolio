@@ -27,7 +27,7 @@ textarea {
   padding: 0px;
 }
 header {
-  margin-top: 150px;
+  margin-top: 170px;
   background-color: var(--rosa-escuro);
   width: 100%;
   min-height: 300px;
@@ -350,9 +350,6 @@ footer {
   color: var(--verde-escuro);
   font-size: 20px;
 }
-.links-contato > img{
-  width: 100px;
-}
 .instagram {
   display: flex;
   justify-content: flex-start;
@@ -386,7 +383,7 @@ footer {
 .links-contato {
   background-color: var(--verde-claro);
   color: var(--verde-escuro);
-  font-size: 30px;
+  font-size: xx-large;
   font-weight: bold;
   border-radius: 20px;
   cursor: pointer;
@@ -460,10 +457,12 @@ footer {
   gap: 20px;
   width: 50%;
 }
+.detalhes-info-esquerda > a{
+  max-width: 60%;
+}
 .detalhes-info-esquerda > a > div {
   height: 50px;
   border-radius: 10px;
-  max-width: 60%;
 }
 .detalhes-info-esquerda > a > div > img {
   max-height: 40px;
@@ -477,4 +476,239 @@ footer {
 }
 .detalhes-nomeProjeto {
   font-weight: bold;
+}
+@media screen and (min-width: 891px) and (max-width: 1100px) {
+  .card-projeto {
+    max-width: none;
+  }
+  .card-projeto-top {
+    display: none;
+  }
+  .card-projeto-bottom {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  .titulo {
+    font-size: 130px;
+  }
+  .subtitulo {
+    font-size: 30px;
+  }
+  .links-contato {
+  font-size: x-large;
+  }
+  .experiencia-texto {
+    display: none;
+  }
+  .experiencia-info {
+    min-width: 98%;
+  }
+  .fotos-sobremim-grid {
+    display: none;
+  }
+  .sobremim-info {
+    min-width: 80%;
+  }
+  .links-contato > p {
+    display: none;
+  }
+  .links {
+    width: 100px;
+  }
+}
+@media screen and (min-width: 751px) and (max-width: 890px) {
+  .nav {
+    display: none;
+  }
+  .card-projeto {
+    max-width: none;
+  }
+  .card-projeto-top {
+    display: none;
+  }
+  .card-projeto-bottom {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  .titulo {
+    font-size: 100px;
+  }
+  .subtitulo {
+    display: none;
+  }
+  .links-contato {
+  font-size: x-large;
+  }
+  .experiencia-texto {
+    display: none;
+  }
+  .experiencia-info {
+    min-width: 98%;
+  }
+  .fotos-sobremim-grid {
+    display: none;
+  }
+  .sobremim-info {
+    min-width: 80%;
+  }
+  .links-contato > p {
+    display: none;
+  }
+  .links {
+    width: 100px;
+  }
+}
+@media screen and (min-width: 521px) and (max-width: 750px) {
+  .nav {
+    display: none;
+  }
+  .card-projeto {
+    max-width: none;
+  }
+  .card-projeto-top {
+    display: none;
+  }
+  .card-projeto-bottom {
+    display: grid;
+    grid-template-columns: 1fr
+  }
+  .titulo {
+    font-size: 100px;
+  }
+  .subtitulo {
+    display: none;
+    margin-left: 50px;
+  }
+  .links-contato {
+  font-size: x-large;
+  }
+  .experiencia-texto {
+    display: none;
+  }
+  .experiencia-info {
+    min-width: 98%;
+  }
+  .fotos-sobremim-grid {
+    display: none;
+  }
+  .sobremim-info {
+    min-width: 80%;
+  }
+  .links-contato > p {
+    display: none;
+  }
+  .links {
+    width: 100px;
+  }
+  .campoinfo-top {
+    display: flex;
+    flex-direction: column;
+  }
+}
+@media screen and (min-width: 466px) and (max-width: 520px) {
+  .nav {
+    display: none;
+  }
+  .card-projeto {
+    max-width: none;
+  }
+  .card-projeto-top {
+    display: none;
+  }
+  .card-projeto-bottom {
+    display: grid;
+    grid-template-columns: 1fr
+  }
+  .titulo {
+    font-size: 60px;
+    margin-left: 50px;
+  }
+  .subtitulo {
+    display: none;
+    margin-left: 50px;
+  }
+  .links-contato {
+  font-size: x-large;
+  }
+  .experiencia-texto {
+    display: none;
+  }
+  .experiencia-info {
+    min-width: 98%;
+  }
+  .fotos-sobremim-grid {
+    display: none;
+  }
+  .sobremim-info {
+    min-width: 80%;
+  }
+  .links-contato > p {
+    display: none;
+  }
+  .links {
+    width: 100px;
+  }
+  .campoinfo-top {
+    display: flex;
+    flex-direction: column;
+  }
+}
+@media screen and (min-width: 0px) and (max-width: 465px) {
+  .nav {
+    display: none;
+  }
+  .card-projeto {
+    max-width: none;
+  }
+  .card-projeto-top {
+    display: none;
+  }
+  .card-projeto-bottom {
+    display: grid;
+    grid-template-columns: 1fr
+  }
+  .titulo {
+    font-size: 60px;
+    margin-left: 50px;
+  }
+  .subtitulo {
+    display: none;
+    margin-left: 50px;
+  }
+  .links-contato {
+  font-size: x-large;
+  }
+  .experiencia-texto {
+    display: none;
+  }
+  .experiencia-info {
+    min-width: 98%;
+  }
+  .fotos-sobremim-grid {
+    display: none;
+  }
+  .sobremim-info {
+    min-width: 80%;
+  }
+  .links-contato > p {
+    display: none;
+  }
+  .links {
+    width: 100px;
+  }
+  .campoinfo-top {
+    display: flex;
+    flex-direction: column;
+  }
+  .experiencia-info-direita {
+    display: none;
+  }
+}
+@media screen and (max-width:1000px) {
+  .detalhes-info-direita {
+    display: none;
+  }
+  .detalhes-info-esquerda {
+    width: 100%;
+  }
 }

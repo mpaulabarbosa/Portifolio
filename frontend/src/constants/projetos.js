@@ -7,7 +7,8 @@ export const projetos = [
     descricaoProjeto: 'Aplicativo de comunicação para ligar pessoas que passam por necessidade financeira ou que gostariam de ajudar pessoas com ONGs, ele funciona como uma rede social onde cada uma dessas ONGs possui sua própria conta que pode fazer postagens incentivando pessoas, recrutando voluntários e pedindo doações.',
     tecnologias: [
       'Bootstrap', 'Mapbox', 'JavaScript', 'Node.js'
-    ]
+    ],
+    link: 'https://github.com/ICEI-PUC-Minas-PMGES-TI/pmg-es-2026-1-ti1-0427100-g3-1'
   },
   {
     id: '2',
@@ -17,7 +18,8 @@ export const projetos = [
     descricaoProjeto: 'Site de wiki para auxiliar pessoas novatas ou experientes no jogo Stardew Valley a entenderem melhore sobre a história, itens, missões e outros.',
     tecnologias: [
       'Bootstrap', 'Chart.js', 'JavaScript', 'Node.js'
-    ]
+    ],
+    link: 'https://github.com/mpaulabarbosa'
   },
   {
     id: '3',
@@ -27,6 +29,7 @@ export const projetos = [
     descricaoProjeto: 'Aplicativo de rotina para auxiliar pessoas idosas ou que não possuem muita familiaridade com o ambiente digital a estarem em dia com os seus remédios, compromissos, atividades e metas de água. A aplicação é totalmente voltada para que o usuário seja autônomo e que não tenha dificuldades com a interface ou com a usabilidade do sistema',
     tecnologias: [
       'Java SpringBoot', 'Vite', 'JavaScript', 'TailwindCSS'
-    ]
+    ],
+    link: 'https://github.com/ICEI-PUC-Minas-PMGES-TI/pmg-es-2026-2-ti2-8183100-cuida-mais'
   }
 ];
