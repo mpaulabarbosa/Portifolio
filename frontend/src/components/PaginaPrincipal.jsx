@@ -29,7 +29,7 @@ export default function PaginaPrincipal() {
           <div className='linha vertical-intro'/>
           <div className='intro-escrita'>
             <h1 className='font-display titulo'>Portfólio</h1>
-            <h3 className='font-display subtitulo'>Maria Paula Barbosa {"\u2727"}</h3>
+            <h3 className='font-display subtitulo'>Maria Paula Barbosa {"\u2605"}</h3>
           </div>
           <div className='linha vertical-intro direita'/>
         </div>
@@ -48,6 +48,9 @@ export default function PaginaPrincipal() {
           contatoRef={contatoRef}
         />
       </main>
+      <footer>
+        <p>{"\u2605"}</p>
+      </footer>
     </div>
   )
 }

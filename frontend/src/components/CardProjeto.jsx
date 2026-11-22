@@ -13,7 +13,9 @@ export default function CardProjeto({
             <div className='card-info'>
                 <p>{nomeProjeto}</p>
                 <p>{dataProjeto}</p>
-                <Link to={`/projeto/${idProjeto}`}>Detalhes</Link>
+                <div className='card-projeto-redirecionamento'>
+                    <Link to={`/projeto/${idProjeto}`}>Detalhes</Link>
+                </div>
             </div>
         </div>
     )

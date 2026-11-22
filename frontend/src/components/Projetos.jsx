@@ -1,7 +1,7 @@
 import '../App.css'
 import CardProjeto from './CardProjeto'
-import foto from  "../assets/image0.jpg"
 import { projetos } from '../constants/projetos';
+import foto from  "../assets/image0.jpg"
 
 export default function Projetos({
     projetosRef
